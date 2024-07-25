@@ -86,15 +86,14 @@ npm i -g autoprefixer
 
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
-@media (prefers-color-scheme: dark){
-    .day.dark-scheme { background: #222; color: white;}
-    .night.dark-scheme { background: black; color: #eaeaea;}
-}
 
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
-
+@media (prefers-color-scheme: dark){
+    .day.dark-scheme { background: #222; color: white;}
+    .night.dark-scheme { background: black; color: #eaeaea;}
+}
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
 
